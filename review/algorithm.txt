@@ -1,0 +1,12 @@
+1. cd../ ==> Going on desktop
+2. mkdir main ==> creating main folder on desktop. 
+3. cd main ==> Going inside main folder.
+4. mkdir sub1 sub2 sub3 ==> inside main folder created sub1 sub2 sub3 folder
+5. cd ../items ==> Now we are in items folder. 
+6. now in items folder there are 3 files
+7. Running the for loop inside items
+8. now creating name variable for extacting only name of file (a,b,c)
+9. for extracting extension of file creating extension variable ( pdf,docx,mp3)
+10. mkdir -p $extension/$name ==> now crated nested folder (i.e:- a,b,c folder under pdf,docx,mp3 floder) 
+11. cp $ps $extension/$name ==> now copy the files in a,b,c respectively
+12. mv $extension ../main.sub2 ==> now move this pdf,docx,mp3 folders into main/sub2
